@@ -1,0 +1,16 @@
+.avocado-sprite {
+    width: 100px; /* Width of one frame (adjust to match your sprite size) */
+    height: 85px; /* Height of one frame */
+    background: url('../public/avacado_character_sprite_sheet.png') no-repeat;
+    animation: play-sprite 1s steps(2) infinite; /* Adjust steps based on the number of frames */
+    zoom: 2;
+}
+
+@keyframes play-sprite {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -512px; /* -width of the entire sprite sheet */
+    }
+}
