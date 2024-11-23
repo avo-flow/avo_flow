@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "$AVO",
-  description: "$AVO Meme Token",
+  description: "$AVO memecoin on the Flow blockchain.",
 };
 
 export default function RootLayout({
